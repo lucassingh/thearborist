@@ -1,0 +1,72 @@
+@import '../styles/variables.scss';
+
+.arborist-section {
+    width: 100%;
+    height: auto;
+    background: white;
+
+    .container-text {
+        padding: 25% 10% 10% 10%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .title {
+            font-size: 30px;
+            font-weight: bolder;
+            color: $secondary-color;
+            padding-bottom: 30px;
+        }
+
+        .text {
+            padding-bottom: 50px;
+            font-size: 20px;
+            text-align: center;
+            border-bottom: 2px solid #5c569a;
+            .textb {
+                color: #5c569a;
+                font-weight: bold;
+            }
+            .textc {
+                color: #000;
+                font-weight: bold;
+            }
+        }
+    }
+    .container-cards {
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        .card {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .arborist-section {
+        .container-text {
+            padding: 8% 20% 1% 20%;
+            text-align: start;
+            .title {
+                font-size: 70px;
+            }
+            .text {
+                padding-bottom: 50px;
+                font-size: 23px;
+                line-height: 35px;
+                text-align: start;
+            }
+        }
+        .container-cards {
+            flex-direction: row;
+            .card {
+                padding: 15px;
+            }
+        }
+    }
+}
