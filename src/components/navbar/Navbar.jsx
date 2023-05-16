@@ -24,11 +24,6 @@ const Navbar = () => {
                     <div>
                         <nav className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}>
                             <Link className={styles.nav__item}
-                                to="home" spy={true} smooth={true} duration={500}
-                            >
-                                {t('header.link1')}
-                            </Link>
-                            <Link className={styles.nav__item}
                                 to="project" spy={true} smooth={true} duration={500}
                             >
                                 {t('header.link2')}
@@ -41,7 +36,7 @@ const Navbar = () => {
                         </nav>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'end', alignItems:'center' }}>
-                        <button style={{background:'none', color:'#5c569a', padding:'8px', marginRight:'20px', border: '1px solid #fff', cursor:'pointer'}}>
+                        <button style={{background:'none', color:'#dbb543', padding:'8px', marginRight:'20px', border: '1px solid #fff', cursor:'pointer'}}>
                             <Link to='contact' spy={true} smooth={true} duration={500} >{t('header.link4')}</Link>
                         </button>
                         {

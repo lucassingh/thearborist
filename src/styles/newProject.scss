@@ -90,13 +90,14 @@
         display: flex;
         justify-content: center;
         .card{
-            width: 270px;
+            width: auto;
             height: 150px;
             display: flex;
+            text-align: center;
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            padding: 15px;
+            padding: 25px;
             .text-card {
                 font-size: 25px;
                 color: white;
