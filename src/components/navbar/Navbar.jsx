@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className={styles.navbar}>
                 <div className={styles.navbar__content}>
                     <Link to='home' className={styles.logo} spy={true} smooth={true} duration={500}>
-                        <img src={logo} alt="brand" width='90%' />
+                        <img src={logo} alt="brand" width='100%' />
                     </Link>
                     <div>
                         <nav className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}>
