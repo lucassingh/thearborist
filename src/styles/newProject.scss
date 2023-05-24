@@ -24,7 +24,6 @@
     width: 100%;
     position: absolute;
     top: 0;
-    height: 100%;
     .content {
         width: 100%;
         padding: 2%;
@@ -33,7 +32,7 @@
             width: 70%;
         }
         .title-about {
-            font-size: 18px;
+            font-size: 25px;
             font-weight: bold;
         }
     }
@@ -48,25 +47,19 @@
         flex-direction: row;
         padding: 8%;
         .content {
-            width: 100%;
+            width: 50%;
             .img-1 {
                 width: 100%;
             }
             .title-about {
-                font-size: 55px;
+                font-size: 48px;
                 line-height: 40px;
                 font-weight: bold;
-            }
-            .text {
-                font-size: 20px;
-                line-height: 35px;
-                text-align:left;
-
             }
         }
         .left {
             background-color: $third-color;
-            opacity: 0.9;
+            opacity: 0.7;
         }
     }
     .container-projects {

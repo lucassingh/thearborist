@@ -6,6 +6,8 @@ import imgbgmobile from '../assets/bgmobile2.png';
 import imgabout from '../assets/expositions.jpg'
 import { useTranslation } from 'react-i18next';
 import imgProject from '../assets/backgound2.png'
+import 'react-multi-carousel/lib/styles.css';
+import Slider from '../components/slider/Slider';
 
 const NewProject = () => {
 
@@ -25,10 +27,8 @@ const NewProject = () => {
                         <img className='img-1' src={imgabout} alt='about' />
                     </div>
                     <div className='content left'>
-                        <span className='title-about'>{t('about.title')}</span><br /><br /><br />
-                        <div>
-                            <span className='text'>{t('about.text')}</span>
-                        </div>
+                        <span className='title-about'>{t('about.title')}</span><br /><br />
+                        <Slider />
                     </div>
                 </div>
             </section>
@@ -60,10 +60,7 @@ const NewProject = () => {
                     </div>
                 </div>
             </div>
-        </>
-
-
-    )
+        </>)
 }
 
 export default NewProject

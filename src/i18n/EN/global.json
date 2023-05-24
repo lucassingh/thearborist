@@ -1,24 +1,33 @@
 {
     "header": {
         "link1":"Home",
-        "link2":"NEW PROJECT",
-        "link3":"THE ARBORIST",
+        "link2":"THE PROJECT",
+        "link3":"BE A ARBORIST",
         "link4":"CONTACT"
     },
     "hero": {
-        "title":"We create artistic concepts for ",
-        "subtitle": "further development of human capacities",
-        "subtitle2": "from a harmonic and educational point of view"
+        "title":"Holistic Immersive Project ",
+        "subtitle": "The Arborist, Transforming History from the Heart",
+        "subtitle2": "Edition 1: Lothar and Liliana Hermann"
     },
     "enum1": {
-        "option1":"Expression",
-        "option2":"Experience",
-        "option3":"Integration",
-        "option4":"Transcendence"
+        "option1":"Exhibition",
+        "option2":"Documentary",
+        "option3":"Book",
+        "option4":""
     },
     "about": {
-        "title": "We present the story of the Holocaust and the life of Liliana Herman...",
-        "text": "responsible for the deportations to concentration camps and mentor of the so-called \"final solution\", had been living in Buenos Aires for some time. After years of reporting his presence and with remarkable persistence to achieve the goal of justice, Lothar succeeded in having Adolf Eichmann captured in Buenos Aires on 11 May 1960 and transferred to Israel for trial and sentencing. Eichmann met his end at the gallows on 31 May 1961..."
+        "title": "The Arborists' DNA"
+    },
+    "cardsSlider":{
+        "title1":"EXPRESSION",
+        "text1":"The history of the Second World War and the Holocaust, presented in an innovative way.",
+        "title2":"EXPERIENCE",
+        "text2":"Hermann and Eichmann were two German families: one Jewish and one Nazi. Lothar was fleeing the Holocaust and Adolf was fleeing from the justice system that was to condemn him for his war crimes. The two were reunited in a neighbourhood in Buenos Aires, Argentina. Lothar managed to have Adolf Eichmann captured and transferred to Israel to be tried and sentenced.",
+        "title3":"INTEGRATION",
+        "text3":"Liliana, Lothar Hermann's grandniece, as an adult, learns of his family history. This led Liliana and her partner Ariel Mereles to find the truth and to walk an amazing path together with other descendants who opened their hearts on this journey of evolution.",
+        "title4":"TRASCENDENCE",
+        "text4":"The Arborists is an experiential journey, an opportunity to connect and transform collective and personal pain through learning, restoration of neutrality and transcendence, because we understand that only when pain is transformed, it becomes compassion, reparation and gratitude."
     },
     "projects": {
         "option1":"A.I.",
@@ -33,13 +42,42 @@
         "option5c":"AND VIBRATIONS",
         "option6":"HOLOGRAMS"
     },
+    "tabs":{
+        "tab1": "EXHIBITION",
+        "tab2": "DOCUMENTARY",
+        "tab3": "BOOK"
+    },
+    "tabbodyexibition": {
+        "text1": "A historical, holistic and immersive exhibition. It takes the form of multiple routes with technology applied to the experience.",
+        "text2": "Augmented Reality",
+        "text3": "Virtual Reality",
+        "text4": "Artificial Intelligence",
+        "text5": "Holograms",
+        "text6": "Frequency and Vibration Technology",
+        "text7": "Music and Meditations",
+        "text8": "A Proposal for Evolution. A Collective Experience.",
+        "text9": "Premieres in 2024",
+        "text10": "Buenos Aires, Argentina",
+        "text11": "Berlin, Germany",
+        "text12": "Jerusalem, Israel"
+    },
+    "tabbodydocumentary": {
+        "text1":"Liliana Hermann, grandniece of Lothar, a German of Jewish descent who had to emigrate to Argentina to escape the Holocaust, returns to her family's hometown of Quirnbach, Germany.",
+        "text2": "On this journey back to his roots, he attends a series of tributes to his family. He also meets Richard Eichmann, son of Adolf Eichmann, one of the architects of the Final Solution, who was denounced by his great-uncle Lothar.",
+        "text3": "What would seem to be an impossible meeting of irreconcilable histories is transformed into evolution."
+    },
+    "tabbodybook": {
+        "text1":"This book is a collection of interviews with direct descendants, including children, grandchildren and nieces and nephews of those who participated in the Nazi regime or were victims of the Holocaust.",
+        "text2": "Each interviewee answers the same questions, but in their own words and personal experiences, providing a unique and poignant perspective on the history of the Holocaust.",
+        "text3": "The book is designed to help readers find their own path to evolution and transcendence."
+    },
     "arborist":{
-        "title": "What is The Arborist?",
-        "text1": "Guided by the four values expressed as our Principles,",
-        "text2": "The Arborists",
-        "text3": "is a project of the",
-        "text4": "Amplitud Foundation",
-        "text5": "whose main objective is to collaborate in the creation of artistic concepts for the further development of human capabilities from a harmonious and educational point of view."
+        "title": "Are you ready to become an Arborist?",
+        "text1": "At the end of the exhibition and through a crowdfounding platform, you will have the chance to plant a tree on the planet.",
+        "text2": "The Arborists,",
+        "text3": "through a foundation specialised in reforestation of forests, will create a system where everyone can become an arborist, choosing a tree with a specific code, and through a person responsible for the brand action, a tree will be planted as a symbol-decree of humanitarian evolution; in addition, through a membership, they will receive the growth control, the exact location and the name of the tree.",
+        "text4": "",
+        "text5": ""
     },
     "contact":{
         "text":"CONTACT"
