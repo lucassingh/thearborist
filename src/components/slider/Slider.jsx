@@ -11,7 +11,7 @@ const CustomButtonGroupAsArrows = ({ next, previous, goToSlide, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
 
     return (
-        <div style={{marginTop: '30px'}} className='desktop-view'>
+        <div style={{marginTop: '30px'}}>
             <FiArrowLeft style={{cursor:'pointer'}} size={30} className={currentSlide === 0 ? 'disable' : ''} onClick={() => previous()} />
             <FiArrowRight style={{cursor:'pointer'}} size={30} onClick={() => goToSlide(currentSlide + 1)} />
         </div>
@@ -51,8 +51,6 @@ const Slider = () => {
             className=""
             containerClass="container-padding-bottom"
             customButtonGroup={<CustomButtonGroupAsArrows />}
-            dotListClass=""
-            draggable
             focusOnSelect={false}
             infinite={false}
             itemClass=""
@@ -69,8 +67,7 @@ const Slider = () => {
             shouldResetAutoplay
             showDots={false}
             sliderClass=""
-            slidesToSlide={3}
-            swipeable
+            slidesToSlide={5}
         >
             <CardItem title={t('cardsSlider.title1')} text={t('cardsSlider.text1')} />
             <CardItem title={t('cardsSlider.title2')} text={t('cardsSlider.text2')} />
