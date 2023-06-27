@@ -1,74 +1,69 @@
-@import '../styles/variables.scss';
-
-.img {
+.section-hero {
     width: 100%;
-}
-.container-hero {   
-    .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .bg {
+        background-image: url('../assets/heromobile.png');
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        height: 100%;
+        background-size: cover;
         position: absolute;
-        text-align: center;
-        top: calc(9%);
-        padding: 37px;
+        z-index: -9999;
     }
 
-    .title-text {
-        font-family: $lato-sans;
-        color: #fff;
-        font-weight: bold;
-        font-size: 30px;
-    }
-    .subtitle {
-        font-size: 14px;
-        font-weight: lighter;
-        font-size: 30px;
-    }
-    .values {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        text-align: center;
-        top: 62%;
-        padding: 18px;
-        line-height: 45px;
-        .values-text {
-            font-family: $lato-sans;
-            color: #fff;
-            font-weight: bold;
-            font-size: 25px;
+    .header-container {
+        h1 {
+            font-size: 60px;
+            font-weight: 900;
+            color: white;
+        }
+
+        .subtitle-thin {
+            font-size: 26px;
+            font-weight: lighter;
+            color: white;
+        }
+
+        .subtitle-regular {
+            font-size: 28px;
+            font-weight: 600;
+            color: white;
+            line-height: 35px;
+        }
+
+        .sign {
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            line-height: 60px;
         }
     }
-
 }
 
-@media only screen and (min-width: 600px) {
-    .container-hero {
-        .hero {
-            background: none;
-            top: calc(50%);
+@media only screen and (min-width: 420px) {
+    .section-hero {
+        .bg {
+            background-image: url('../assets/hero.png');
         }
-        .title-text {
-            font-size: 50px;
-        }
-        .subtitle {
-            font-size: 40px;
-        }
-        .values {
-            width: 100%;
-            flex-direction: row;
-            top: calc(130%);
-            .values-text {
-                margin-left: 30px;
-                margin-right: 30px;
-                font-weight: bold;
-                font-size: 40px;
+        .header-container {
+            h1 {
+                font-size: 80px;
+            }
+
+            .subtitle-thin {
+                font-size: 45px;
+            }
+
+            .subtitle-regular {
+                font-size: 45px;
+                line-height: 48px;
+            }
+
+            .sign {
+                font-size: 22px;
+                line-height: 76px;
             }
         }
     }

@@ -1,28 +1,35 @@
-import { useTranslation } from 'react-i18next';
-import Header from './components/navbar/Navbar';
-import Tabs, { Book, Documentary, Exhibition } from './components/tabs/Tabs';
-import Arborist from './screens/Arborist';
-import Contact from './screens/Contact';
+import Footer from './components/footer/Footer';
+import Prefooter from './components/footer/Prefooter';
+import Items from './components/items/Items';
+import Navbar from './components/navbar/Navbar';
+import About from './screens/About';
+import Book from './screens/Book';
+import Documentary from './screens/Documentary';
+import Evolution from './screens/Evolution';
+import Exibition from './screens/Exibition';
 import Home from './screens/Home';
-import NewProject from './screens/NewProject';
+import Offer from './screens/Offer';
+import Proposal from './screens/Proposal';
+import Tour from './screens/Tour';
+import Who from './screens/Who';
 
 function App() {
-
-    const { t } = useTranslation("global");
-
     return (
         <>
-            <Header />
+            <Navbar />
             <Home />
-            <NewProject />
-            <Tabs config={[
-                    {header: t('tabs.tab1'), component:<Exhibition />},
-                    {header: t('tabs.tab2'), component:<Documentary />},
-                    {header: t('tabs.tab3'), component:<Book />},
-                ]}
-            />
-            <Arborist />
-            <Contact />
+            <About />
+            <Who />
+            <Tour />
+            <Evolution />
+            <Exibition />
+            <Documentary />
+            <Book />
+            <Items />
+            <Proposal />
+            <Offer />
+            <Prefooter />
+            <Footer />
         </>
     );
 }

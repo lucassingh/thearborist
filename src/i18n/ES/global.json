@@ -1,33 +1,24 @@
 {
     "header": {
         "link1":"Home",
-        "link2":"EL PROYECTO",
-        "link3":"SER UN ARBORISTA",
+        "link2":"NUEVO PROYECTO",
+        "link3":"THE ARBORIST",
         "link4":"CONTACTO"
     },
     "hero": {
-        "title":"Proyecto Holístico Inmersivo ",
-        "subtitle": "The Arborist, Transformando la Historia desde el Corazón.",
-        "subtitle2": "Edición 1: Lothar y Liliana Hermann"
+        "title":"Creamos conceptos artísticos para ",
+        "subtitle": "un mayor desarrollo de las capacidades humanas",
+        "subtitle2": "desde un punto de vista armónico y educativo"
     },
     "enum1": {
-        "option1":"Exhibición",
-        "option2":"Documental",
-        "option3":"Libro",
-        "option4":""
+        "option1":"Expresión",
+        "option2":"Experiencia",
+        "option3":"Integración",
+        "option4":"Trascendencia"
     },
     "about": {
-        "title": "El ADN de The Arborists"
-    },
-    "cardsSlider":{
-        "title1":"EXPRESIÓN",
-        "text1":"La historia de la Segunda Guerra Mundial y el Holocausto, presentados de una forma innovadora.",
-        "title2":"EXPERIENCIA",
-        "text2":"Hermann y Eichmann eran dos familias alemanas: una judía y otra nazi. Lothar huía del Holocausto y Adolf escapaba de la justicia que debía condenarlo por sus crímenes de guerra. Ambos se reencontraron en un barrio de Buenos Aires, Argentina. Lothar logró que capturaran a Adolf Eichmann y lo trasladaran a Israel para ser juzgado y condenado.",
-        "title3":"INTEGRACIÓN",
-        "text3":"Liliana, sobrina nieta de Lothar Hermann, ya adulta se entera de que su historia familiar. Esto llevó a Liliana y a su compañero Ariel Mereles a encontrar la verdad y recorrer un camino asombroso junto a otros descendientes que abrieron sus corazones en este viaje de evolución.",
-        "title4":"TRASCENDENCIA",
-        "text4":"The Arborists es un viaje vivencial, una oportunidad para conectar y transformar el dolor colectivo y propio a través del aprendizaje, la restauración de la neutralidad y la transcendencia, porque entendemos que solo cuando el dolor se transforma, se convierte en compasión, reparación y agradecimiento."
+        "title": "Presentamos la historia del Holocausto y la vida de Liliana Herman...",
+        "text": "responsable de las deportaciones a campos de concentración y mentor de la llamada \"solución final\", vivía desde hacía tiempo en Buenos Aires. Luego de años de haber reportado su presencia y teniendo una persistencia notable para alcanzar el objetivo de hacer justicia, Lothar logró que capturaran a Adolf Eichmann en Buenos Aires el 11 de mayo de 1960 y lo trasladaran a Israel para ser juzgado y condenado. Eichmann encontró su final en la horca el 31 de Mayo de 1961... "
     },
     "projects": {
         "option1":"A.I.",
@@ -42,42 +33,13 @@
         "option5c":"Y VIBRACIONES",
         "option6":"HOLOGRAMAS"
     },
-    "tabs":{
-        "tab1":"EXHIBICIÓN",
-        "tab2":"DOCUMENTAL",
-        "tab3":"LIBRO"
-    },
-    "tabbodyexibition": {
-        "text1": "Una exhibición histórica, holística e inmersiva. Se desarrolla en múltiples recorridos con tecnología aplicada a la experiencia vivencial.",
-        "text2": "Realidad Aumentada",
-        "text3": "Realidad Virtual",
-        "text4": "Inteligencia Artificial",
-        "text5": "Hologramas",
-        "text6": "Tecnología de Frecuencias y Vibraciones",
-        "text7": "Música y Meditaciones",
-        "text8": "Una Propuesta de Evolución. Una Experiencia Colectiva.",
-        "text9": "Premieres en 2024",
-        "text10": "Buenos Aires, Argentina",
-        "text11": "Berlín, Alemania",
-        "text12": "Jerusalén, Israel"
-    },
-    "tabbodydocumentary": {
-        "text1":"Liliana Hermann, sobrina nieta de Lothar, un alemán de ascendencia judía que debió emigrar a la Argentina huyendo del Holocausto, regresa a Quirnbach, Alemania, la ciudad natal de su familia.",
-        "text2": "En este viaje a las raíces, asiste a una serie de homenajes a su familia. También se encuentra con Ricardo Eichmann, hijo de Adolf Eichmann, uno de los arquitectos de la “solución final” y quien fuera denunciado por su tío abuelo Lothar.",
-        "text3": "Lo que parecería un encuentro imposible de historias irreconciliables, se transforma en la evolución."
-    },
-    "tabbodybook": {
-        "text1":"Este libro es una colección de entrevistas con descendientes directos, incluyendo hijos, nietos y sobrinos de aquellos que participaron en el régimen nazi o que fueron víctimas del Holocausto.",
-        "text2": "Cada entrevistado responde a las mismas preguntas, pero con sus propias palabras y experiencias personales, brindando una perspectiva única y conmovedora sobre la historia del Holocausto.",
-        "text3": "El libro está diseñado para ayudar a los lectores a encontrar su propio camino hacia la evolución y la trascendencia."
-    },
     "arborist":{
-        "title": "¿Estás listo para ser un Arborista?",
-        "text1": "Al final de la exhibición y por medio de una plataforma de crowdfounding, tendrás la posibilidad de plantar un árbol en el planeta.",
-        "text2": "The Arborists,",
-        "text3": " mediante una fundación especializada en reforestaciones de bosques, creará un sistema en donde todos podrán convertirse en arboristas, eligiendo un árbol con un código específico, y a través de una persona responsable de la acción de marca, se plantará un árbol como símbolo-decreto de evolución humanitaria; además, por medio de una membresía, recibirán el control de crecimiento, la ubicación exacta y el nombre del mismo.",
-        "text4": "",
-        "text5": ""
+        "title": "Qué es The Arborist?",
+        "text1": "Guiado por los cuatro valores expresados como nuestros Principios,",
+        "text2": "The Arborists",
+        "text3": "es un proyecto de la",
+        "text4": "Fundación Amplitud",
+        "text5": "cuyo objetivo principal es colaborar en la creación de conceptos artísticos para un mayor desarrollo de las capacidades humanas desde un punto de vista armónico y educativo."
     },
     "contact":{
         "text":"CONTACTO"

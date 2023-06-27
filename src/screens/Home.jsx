@@ -1,38 +1,36 @@
-import React from 'react'
-import { BrowserView, MobileView } from 'react-device-detect';
+import React from 'react';
 import '../styles/home.scss'
-import imgHero from '../assets/hero.png'
-import imgHeroMobile from '../assets/heromobile.png'
-import { useTranslation } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 const Home = () => {
 
-    const { t } = useTranslation("global");
+    // const { t } = useTranslation("global");
 
     return (
-        <>
-            <section id="home">
-                <div className='container-hero'>
-                    <BrowserView>
-                        <img src={imgHero} alt="hero" className='img' />
-                    </BrowserView>
-                    <MobileView>
-                        <img src={imgHeroMobile} alt="hero" className='img' />
-                    </MobileView>
-                    <div className='hero'>
-                        <span className='title-text'>{t('hero.title')}</span>
-                        <span className='title-text'>{t('hero.subtitle')}</span>
-                        <span className='title-text subtitle'>{t('hero.subtitle2')}</span>
-                    </div>
-                    <div className='values'>
-                        <span className='values-text'>{t('enum1.option1')}</span>
-                        <span className='values-text'>{t('enum1.option2')}</span>
-                        <span className='values-text'>{t('enum1.option3')}</span>
-                        <span className='values-text'>{t('enum1.option4')}</span>
-                    </div>
-                </div>
-            </section>
-        </>
+        <section className='section-hero'>
+            <div className='bg'></div>
+            <div className='container'>
+                <Row className='pt-3 pb-3'>
+                    <Col md={12} className='header-container'>
+                        <h1>The Arborist</h1>
+                        <span className='subtitle-thin'>Proyecto Holístico Inmersivo</span>
+
+                        <BrowserView>
+                            <span className='subtitle-regular'>Transformando la Historia<br /> desde el Corazón</span>
+                        </BrowserView>
+
+                        <MobileView>
+                            <span className='subtitle-regular'>Transformando la Historia desde el Corazón</span>
+                        </MobileView>
+
+                        <span className='sign'>Lothar y Liliana Hermann</span>
+                    </Col>
+                </Row>
+            </div>
+        </section>
     )
 }
 
