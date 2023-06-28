@@ -38,12 +38,12 @@ const Who = () => {
 
                         <p className='text mb-0'>
                             Lothar Hermann, después de haber
-                            escapado de un campo de concentración en
+                            escapado de un campo de concentración en donde sus familiares no corrieron
                         </p>
                     </Col>
                     <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column'>
                         <p className='text mb-0'>
-                            donde sus familiares no corrieron con la
+                            con la
                             misma suerte, llegó a la Argentina.
                         </p>
 

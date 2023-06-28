@@ -1,6 +1,6 @@
 .evolution-section {
     .bg {
-        background-image: url('../assets/bg3.jpg');
+        background-image: url('../assets/bg-4.jpg');
         width: 100%;
         height: 100%;
         background-size: cover;
@@ -16,15 +16,15 @@
     }
     .text {
         color: white;
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 33px;
     }
 }
 
 @media only screen and (min-width: 420px) {
     .evolution-section {
         .bg {
-            background-image: url('../assets/bg3.jpg');
+            background-position-y: 100%;
         }
         h5 {
             font-size: 26px;

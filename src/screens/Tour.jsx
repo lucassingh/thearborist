@@ -6,7 +6,7 @@ const Tour = () => {
     return (
         <section className='tour-section'>
             <div className='bg'></div>
-            <div className='container pt-3 pb-5'>
+            <div className='container pt-5 pb-5'>
                 <Row className='mb-3 mt-3'>
                     <Col md={12}>
                         <h5>El recorrido de Liliana Hermann al <br /> conocer su realidad.</h5>

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Col, Row, Image } from 'react-bootstrap';
-import imgTwo from '../assets/img-1.jpg'
+import img from '../assets/img-5.jpg'
 import '../styles/section.scss';
 
 const Book = () => {
     return (
         <section className='section-'>
-            <div className='container pt-3 pb-5'>
+            <div className='container pt-5 pb-5'>
                 <Row>
                     <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column'>
-                        <h2 className='title-about- mb-3 mt-3'>El Libro</h2>
+                        <h2 className='title-about- mb-3'>El Libro</h2>
                         <span className='text'>
                             Este libro es una colección de entrevistas con
                             descendientes directos, incluyendo hijos, nietos y
@@ -25,7 +25,7 @@ const Book = () => {
                         </span>
                     </Col>
                     <Col md={6} className='mt-5 d-md-flex justify-content-md-end align-items-md-start text-center'>
-                        <Image src={imgTwo} width='80%' />
+                        <Image src={img} width='80%' />
                     </Col>
                 </Row>
             </div>

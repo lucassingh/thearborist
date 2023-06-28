@@ -8,12 +8,12 @@ const Items = () => {
             <div className='bg'></div>
             <div className='container'>
                 <Row>
-                    <Col md={2} className='item'><span>AI</span></Col>
-                    <Col md={2} className='item'><span>REALIDAD<br /> VIRTUAL</span></Col>
-                    <Col md={2} className='item'><span>TECNOLOGÍAS<br /> ALTERNATIVAS</span></Col>
-                    <Col md={2} className='item'><span>REALIDAD<br /> AUMENTADA</span></Col>
-                    <Col md={2} className='item'><span>TECNOLOGÍA DE <br /> FRECUENCIAS <br /> Y VIBRACIONES</span></Col>
-                    <Col md={2} className='item'><span>HOLOGRAMAS</span></Col>
+                    <Col md={2} className='item text-center'><span>AI</span></Col>
+                    <Col md={2} className='item text-center'><span>REALIDAD<br /> VIRTUAL</span></Col>
+                    <Col md={2} className='item text-center'><span>TECNOLOGÍAS<br /> ALTERNATIVAS</span></Col>
+                    <Col md={2} className='item text-center'><span>REALIDAD<br /> AUMENTADA</span></Col>
+                    <Col md={2} className='item text-center'><span>TECNOLOGÍA DE <br /> FRECUENCIAS <br /> Y VIBRACIONES</span></Col>
+                    <Col md={2} className='item text-center'><span>HOLOGRAMAS</span></Col>
                 </Row>
             </div>
 

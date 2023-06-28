@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row, Image } from 'react-bootstrap';
-import imgTwo from '../assets/img-2.jpg'
+import img from '../assets/img-2.jpg'
 import '../styles/offer.scss'
 
 const Offer = () => {
@@ -9,7 +9,7 @@ const Offer = () => {
             <div className='container pt-5 pb-5'>
                 <Row>
                     <Col md={4} className='cont-img'>
-                        <Image src={imgTwo} width='80%' />
+                        <Image src={img} width='80%' />
                     </Col>
                     <Col md={8} className='cont-text'>
                         <h4>¿Estás listo para ser un Arborista?</h4>
