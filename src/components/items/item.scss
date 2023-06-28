@@ -9,23 +9,20 @@
         z-index: -9999;
     }
     .item {
-        height: 130px;
+        height: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
         span {
             font-weight: 700;
             color: white;
-            font-size: 25px;
+            font-size: 20px;
         }
     }
 }
 
 @media only screen and (min-width: 420px) {
     .main-container {
-        /* .bg {
-            background-image: url('../../assets/backgound2.png');
-        } */
         .item {
             height: 300px;
             justify-content: flex-start;
