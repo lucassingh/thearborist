@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     .bg {
         background-image: url('../assets/bg-4.jpg');
         width: 100%;
@@ -28,7 +29,6 @@
 
 @media only screen and (min-width: 420px) {
     .evolution-section {
-        height: auto;
         .bg {
             background-position-y: 100%;
         }

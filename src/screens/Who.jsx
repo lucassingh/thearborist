@@ -38,38 +38,36 @@ const Who = () => {
 
                         <p className='text mb-0'>
                             Lothar Hermann, después de haber
-                            escapado de un campo de concentración en donde sus familiares no corrieron
-                        </p>
-                    </Col>
-                    <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column'>
-                        <p className='text mb-0'>
-                            con la
+                            escapado de un campo de concentración en donde sus familiares no corrieron con la
                             misma suerte, llegó a la Argentina.
                         </p>
+                    </Col>
+                    <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column hide-content'>
+                        <div>
+                            <p className='text mb-0'>
+                                Lothar, casi de manera casual, descubre
+                                que Adolf Eichmann, quien fue responsable
+                                de las deportaciones a campos de
+                                concentración y mentor de la llamada
+                                “solución final”, vivía desde hacía tiempo en
+                                Buenos Aires.
+                            </p>
 
-                        <p className='text mb-0'>
-                            Lothar, casi de manera casual, descubre
-                            que Adolf Eichmann, quien fue responsable
-                            de las deportaciones a campos de
-                            concentración y mentor de la llamada
-                            “solución final”, vivía desde hacía tiempo en
-                            Buenos Aires.
-                        </p>
+                            <p className='text mb-0'>
+                                Luego de años de haber reportado su
+                                presencia y teniendo una persistencia
+                                notable para alcanzar el objetivo de hacer
+                                justicia, Lothar logró que capturaran a
+                                Adolf Eichmann en Buenos Aires el 11 de
+                                mayo de 1960 y lo trasladaran a Israel para
+                                ser juzgado y condenado.
+                            </p>
 
-                        <p className='text mb-0'>
-                            Luego de años de haber reportado su
-                            presencia y teniendo una persistencia
-                            notable para alcanzar el objetivo de hacer
-                            justicia, Lothar logró que capturaran a
-                            Adolf Eichmann en Buenos Aires el 11 de
-                            mayo de 1960 y lo trasladaran a Israel para
-                            ser juzgado y condenado.
-                        </p>
-
-                        <p className='text mb-0'>
-                            Eichmann encontró su final en la horca el
-                            31 de mayo de 1961.
-                        </p>
+                            <p className='text mb-0'>
+                                Eichmann encontró su final en la horca el
+                                31 de mayo de 1961.
+                            </p>
+                        </div>
                     </Col>
                 </Row>
             </div>

@@ -33,11 +33,13 @@
         font-size: 15px;
         line-height: 18px;
     }
+    .hide-content {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 420px) {
     .who-section {
-        height: auto;
         padding-bottom: 60px;
         .bg {
             background-position-y: 80%;
