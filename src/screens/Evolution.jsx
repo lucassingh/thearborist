@@ -6,7 +6,7 @@ const Evolution = () => {
     return (
         <section className='evolution-section'>
             <div className='bg'></div>
-            <div className='container pt-5 pb-5'>
+            <div className='container'>
                 <Row className='mb-3 mt-3'>
                     <Col md={12}>
                         <h5>La Evolución desde el Corazón.</h5>

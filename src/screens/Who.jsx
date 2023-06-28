@@ -6,7 +6,7 @@ const Who = () => {
     return (
         <section className='who-section'>
             <div className='bg'></div>
-            <div className='container pt-5 pb-5'>
+            <div className='container'>
                 <Row>
                     <Col md={12}>
                         <h2 className='header-section'>Lothar y Liliana Hermann</h2>

@@ -6,7 +6,7 @@ import '../styles/section.scss';
 const Documentary = () => {
     return (
         <section className='section-'>
-            <div className='container pt-2 pb-5'>
+            <div className='container pt-4'>
                 <Row className="flex-column-reverse flex-md-row">
                     <Col md={6} className='mt-5 d-md-flex justify-content-md-start align-items-md-start text-center'>
                         <Image src={img} width='80%' />
