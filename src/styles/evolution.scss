@@ -1,4 +1,8 @@
 .evolution-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .bg {
         background-image: url('../assets/bg-4.jpg');
         width: 100%;
@@ -7,6 +11,7 @@
         position: absolute;
         background-repeat: repeat;
         z-index: -9999;
+        background-position-x: 50%;
     }
 
     h5 {
@@ -16,13 +21,14 @@
     }
     .text {
         color: white;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 33px;
     }
 }
 
 @media only screen and (min-width: 420px) {
     .evolution-section {
+        height: auto;
         .bg {
             background-position-y: 100%;
         }

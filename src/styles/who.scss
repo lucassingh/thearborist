@@ -1,6 +1,9 @@
 .who-section {
     width: 100%;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .bg {
         background-image: url('../assets/bg-2.jpg');
@@ -10,6 +13,7 @@
         position: absolute;
         background-repeat: repeat;
         z-index: -9999;
+        background-position-x: 40%;
     }
 
     .header-section {
@@ -26,13 +30,15 @@
 
     .text {
         color: white;
-        font-size: 15px;
-        line-height: 17px;
+        font-size: 18px;
+        line-height: 22px;
     }
 }
 
 @media only screen and (min-width: 420px) {
     .who-section {
+        height: auto;
+        padding-bottom: 60px;
         .bg {
             background-position-y: 80%;
         }

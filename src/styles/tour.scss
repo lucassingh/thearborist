@@ -1,4 +1,8 @@
 .tour-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .bg {
         background-image: url('../assets/bg-3.jpg');
         width: 100%;
@@ -6,6 +10,7 @@
         background-size: cover;
         position: absolute;
         background-repeat: repeat;
+        background-position-x: 85%;
         z-index: -9999;
     }
 
@@ -16,13 +21,15 @@
     }
     .text {
         color: white;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 33px;
     }
 }
 
 @media only screen and (min-width: 420px) {
     .tour-section {
+        height: auto;
+        padding-bottom: 100px;
         .bg {
             background-position-y: 100%;
         }
