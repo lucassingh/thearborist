@@ -6,7 +6,7 @@ import '../styles/about.scss';
 const About = () => {
     return (
         <section className='section-about'>
-            <div className='container pt-5 pb-5'>
+            <div className='container pt-2 pb-5'>
                 <Row>
                     <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column'>
                         <h2 className='title-about- mb-3 mt-3'>Que es un Arborista?</h2>
