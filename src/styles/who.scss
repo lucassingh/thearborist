@@ -1,11 +1,9 @@
 .who-section {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 55px;
 
     .bg {
         background-image: url('../assets/bg-2.jpg');
@@ -35,9 +33,9 @@
         font-size: 18px;
         line-height: 22px;
     }
-    /* .hide-content {
+    .hide-content {
         display: none;
-    } */
+    }
 }
 
 @media only screen and (min-width: 420px) {
