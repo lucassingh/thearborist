@@ -9,7 +9,7 @@ const Tour = () => {
             <div className='container'>
                 <Row className='mt-3'>
                     <Col md={12}>
-                        <h5>El recorrido de Liliana Hermann al <br /> conocer su realidad.</h5>
+                        <h5>El recorrido de Liliana Hermann al conocer su realidad.</h5>
                     </Col>
                 </Row><br />
                 <Row>
