@@ -10,7 +10,7 @@
     .bg {
         background-image: url('../assets/bg-2.jpg');
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-size: cover;
         position: absolute;
         background-position-x: 40%;
@@ -42,6 +42,7 @@
         margin-bottom: 0px;
         margin-top: 0px;
         .bg {
+            height: 100vh;
             background-position-y: 80%;
         }
         .header-section {
