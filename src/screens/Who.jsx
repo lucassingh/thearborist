@@ -8,7 +8,7 @@ const Who = () => {
             <div className='bg'></div>
             <div className='container'>
                 <Row>
-                    <Col md={12}>
+                    <Col md={12} className='text-center'>
                         <h2 className='header-section'>Lothar y Liliana Hermann</h2>
                     </Col>
                 </Row>
