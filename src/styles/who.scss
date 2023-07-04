@@ -1,6 +1,6 @@
 .who-section {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,9 +10,10 @@
     .bg {
         background-image: url('../assets/bg-2.jpg');
         width: 100%;
+        height: 100%;
         background-size: cover;
         position: absolute;
-        background-position-x: 40%;
+        //background-position-x: 40%;
         z-index: -9999;
     }
 
