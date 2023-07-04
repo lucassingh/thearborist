@@ -7,7 +7,7 @@ const Tour = () => {
         <section className='tour-section'>
             <div className='bg'></div>
             <div className='container'>
-                <Row className='mb-3'>
+                <Row className='mt-3'>
                     <Col md={12}>
                         <h5>El recorrido de Liliana Hermann al <br /> conocer su realidad.</h5>
                     </Col>

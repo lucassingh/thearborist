@@ -1,9 +1,11 @@
 .who-section {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
     .bg {
         background-image: url('../assets/bg-2.jpg');
@@ -11,9 +13,8 @@
         height: 100vh;
         background-size: cover;
         position: absolute;
-        background-repeat: repeat;
-        z-index: -9999;
         background-position-x: 40%;
+        z-index: -9999;
     }
 
     .header-section {
@@ -33,13 +34,13 @@
         font-size: 18px;
         line-height: 22px;
     }
-    .hide-content {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 420px) {
     .who-section {
+        height: 100vh;
+        margin-bottom: 0px;
+        margin-top: 0px;
         .bg {
             background-position-y: 80%;
         }
