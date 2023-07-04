@@ -10,7 +10,8 @@
         height: 100vh;
         background-size: cover;
         position: absolute;
-        //background-position-x: 40%;
+        padding-bottom: 20px;
+        padding-top: 20px;
         z-index: -9999;
     }
 
@@ -36,12 +37,12 @@
 @media only screen and (min-width: 420px) {
     .who-section {
         height: 100vh;
-        padding-bottom: 0px;
-        padding-top: 0px;
         background-color: none;
         .bg {
             height: 100vh;
             background-position-y: 80%;
+            padding-bottom: 20px;
+            padding-top: 20px;
         }
         .header-section {
             font-weight: bolder;
